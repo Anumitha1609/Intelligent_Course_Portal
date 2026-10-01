@@ -1,0 +1,74 @@
+.cc {
+  background: #fff;
+  border: 1px solid var(--sage-border);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(31, 61, 49, 0.05);
+}
+.cc-banner {
+  height: 92px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 0.6rem 0.7rem;
+}
+.cc-cat {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--ink-deep);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 999px;
+  padding: 0.18rem 0.6rem;
+}
+.cc-body {
+  padding: 0.9rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+}
+.cc-body h3 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink-deep);
+  margin: 0;
+}
+.cc-body p {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  margin: 0;
+  flex: 1;
+}
+.cc-meta {
+  display: flex;
+  gap: 0.9rem;
+  font-size: 0.72rem;
+  color: var(--sage-mid);
+}
+.cc-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.cc-btn {
+  align-self: flex-end;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #1f6a47;
+  background: #e2f1e8;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+.cc-btn:hover {
+  background: #cfe6d8;
+}
